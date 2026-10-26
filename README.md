@@ -1,4 +1,4 @@
-# Secure 3-Floor Hotel Network | Cisco Packet Tracer
+# Secure 3-Floor Hotel Network, Cisco Packet Tracer
 
 A segmented, fault-tolerant enterprise network for a three-floor hotel, built and secured in Cisco Packet Tracer. The IT, Admin, and Finance departments are strictly isolated using VLANs, extended ACLs, port security, and SSH-only management.
 
