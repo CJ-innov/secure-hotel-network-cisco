@@ -14,7 +14,7 @@ A segmented, fault-tolerant enterprise network for a three-floor hotel, built an
 
 ---
 
-## 🏢 Network Addressing & VLAN Allocation
+## Network Addressing & VLAN Allocation
 
 | Floor | Department | VLAN ID | Subnet / Mask |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +40,7 @@ A segmented, fault-tolerant enterprise network for a three-floor hotel, built an
 | **Other Departments** | Deny | Deny | Deny | Allow |
 
 * **Architectural Note:** IT maintains deliberate one-way administrative reach for support and patching. Admin and Finance cannot initiate inbound connections into IT, strictly limiting lateral movement in the event of a compromise.
-* Full ACL, SSH, and port security commands are documented in [configs/security-configs.md](configs/security-configs.md).
+* Full ACL, SSH, and port security commands are documented in [security-configs.md](security-configs.md).
 
 ---
 
@@ -83,4 +83,4 @@ Validate routing and security enforcement using show ip ospf neighbor and show a
  Author
 Chia Joshua Vernyuy Nyang, Cybersecurity Student
 
-LinkedIn · Email
+joshuachia67@gmail.com
