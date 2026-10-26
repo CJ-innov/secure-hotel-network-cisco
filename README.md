@@ -4,7 +4,7 @@ A segmented, fault-tolerant enterprise network for a three-floor hotel, built an
 
 *Academic project: Cybersecurity Department, Seven Advanced Academy, Douala, Cameroon (2025–2026).*
 
-## 🌟 Highlights
+## Highlights
 * **Hybrid Topology:** Full-mesh router core ($3 \times$ Cisco 2911) with a star-style access layer (Catalyst 2960 per floor).
 * **High Availability:** OSPF routing configured with automatic failover if a core link drops.
 * **Inter-VLAN Routing:** Router-on-a-stick architecture utilizing 802.1Q subinterfaces.
@@ -31,7 +31,7 @@ A segmented, fault-tolerant enterprise network for a three-floor hotel, built an
 
 ---
 
-## 🛡️ Security Policy Matrix
+## Security Policy Matrix
 
 | Source ↓ / Destination → | IT | Admin | Finance | Other Departments |
 | :--- | :--- | :--- | :--- | :--- |
@@ -74,8 +74,7 @@ A segmented, fault-tolerant enterprise network for a three-floor hotel, built an
 ## 📁 Repository Structure
 ```text
 ├── README.md
-└── configs/
-    └── security-configs.md
+└── security-configs.md
 
 Allow approximately 30 seconds for OSPF convergence.
 
