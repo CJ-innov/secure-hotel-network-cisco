@@ -81,6 +81,6 @@ Allow approximately 30 seconds for OSPF convergence.
 Validate routing and security enforcement using show ip ospf neighbor and show access-lists.
 
  Author
-Chia Joshua Vernyuy Nyang, Cybersecurity Student
+Chia Joshua Vernyuy Nyang, Junior SOC Analyst.
 
 joshuachia67@gmail.com
